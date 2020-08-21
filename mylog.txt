@@ -1,0 +1,24 @@
+  1  git clone https://github.com/chenvampire/my_training.git
+  2  ls
+  3  cd my_training/
+  4  ls
+  5  git branch
+  6  touch README.md
+  7  git add README.md
+  8  git commit -m "add README.md"
+  9  git push -u origin master
+  10  ls
+  11  git branch
+  12  git checkout -b edit_readme
+  13  git branch
+  14  ls
+  15  vim README.md 
+  16  cat README.md 
+  17  git add README.md 
+  18  git commit -m "edit readme.md"
+  19  git log
+  20  git push origin edit_readme
+  21  git checkout -b add_file
+  22  git branch
+  23  gitk -all
+  24  history > mylog.txt
