@@ -1,12 +1,12 @@
-  1  git clone https://github.com/chenvampire/my_training.git
-  2  ls
-  3  cd my_training/
-  4  ls
-  5  git branch
-  6  touch README.md
-  7  git add README.md
-  8  git commit -m "add README.md"
-  9  git push -u origin master
+   1  git clone https://github.com/chenvampire/my_training.git
+   2  ls
+   3  cd my_training/
+   4  ls
+   5  git branch
+   6  touch README.md
+   7  git add README.md
+   8  git commit -m "add README.md"
+   9  git push -u origin master
   10  ls
   11  git branch
   12  git checkout -b edit_readme
@@ -22,3 +22,12 @@
   22  git branch
   23  gitk -all
   24  history > mylog.txt
+  25  ls
+  26  vim mylog.txt 
+  27  cat mylog.txt 
+  28  git branch
+  29  git add mylog.txt 
+  30  git commit -m "add mylog.txt"
+  31  git log
+  32  git push origin add_file
+  33  history
